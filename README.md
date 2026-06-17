@@ -44,32 +44,6 @@ minecraft-object-physics-mod/
   gradle/     Placeholder for Gradle wrapper files
 ```
 
-## Setup
-
-This scaffold includes Gradle configuration files, but the Minecraft version, Fabric loader version, Fabric API version, Yarn mappings, and Fabric Loom version may need to be updated before building.
-
-Suggested setup:
-
-```bash
-git clone <repo-url>
-cd minecraft-object-physics-mod
-./gradlew genSources
-./gradlew build
-```
-
-On Windows PowerShell, after adding a real Gradle wrapper:
-
-```powershell
-.\gradlew.bat genSources
-.\gradlew.bat build
-```
-
-If the wrapper is not installed yet, use a local Gradle installation to generate one:
-
-```bash
-gradle wrapper
-```
-
 ## Roadmap
 
 - Confirm target Minecraft, Fabric loader, Fabric API, Loom, and Yarn mapping versions.
