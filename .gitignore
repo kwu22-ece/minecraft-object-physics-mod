@@ -1,0 +1,36 @@
+# OS/editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+*.swp
+*.swo
+
+# Gradle
+.gradle/
+build/
+out/
+classes/
+
+# Minecraft/Fabric run outputs
+run/
+logs/
+crash-reports/
+saves/
+mods/
+config/
+debug/
+
+# Generated archives and binaries
+*.jar
+*.class
+*.log
+*.hprof
+
+# Local environment files
+.env
+*.local

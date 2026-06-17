@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "objectphysics",
+  "version": "${version}",
+  "name": "Object Physics Mod",
+  "description": "Prototype Fabric mod for experimenting with simplified object physics and material-inspired collision behavior.",
+  "authors": [
+    "Kyson Wu"
+  ],
+  "contact": {
+    "homepage": "https://github.com/kwu22-ece/minecraft-object-physics-mod",
+    "sources": "https://github.com/kwu22-ece/minecraft-object-physics-mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.kyson.objectphysics.ObjectPhysicsMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "~${minecraft_version}",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
